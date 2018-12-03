@@ -1,15 +1,13 @@
 {
-  "main.css": "/omar-al-ashi/static/css/main.74f9a20a.chunk.css",
-  "main.js": "/omar-al-ashi/static/js/main.86575ed7.chunk.js",
-  "main.js.map": "/omar-al-ashi/static/js/main.86575ed7.chunk.js.map",
-  "static/css/1.f61ac0e5.chunk.css": "/omar-al-ashi/static/css/1.f61ac0e5.chunk.css",
-  "static/js/1.3d9ba78c.chunk.js": "/omar-al-ashi/static/js/1.3d9ba78c.chunk.js",
-  "static/js/1.3d9ba78c.chunk.js.map": "/omar-al-ashi/static/js/1.3d9ba78c.chunk.js.map",
+  "main.css": "/omar-al-ashi/static/css/main.52eba9e7.chunk.css",
+  "main.js": "/omar-al-ashi/static/js/main.1432f40d.chunk.js",
+  "main.js.map": "/omar-al-ashi/static/js/main.1432f40d.chunk.js.map",
+  "static/js/1.0bf18d93.chunk.js": "/omar-al-ashi/static/js/1.0bf18d93.chunk.js",
+  "static/js/1.0bf18d93.chunk.js.map": "/omar-al-ashi/static/js/1.0bf18d93.chunk.js.map",
   "runtime~main.js": "/omar-al-ashi/static/js/runtime~main.b2199c39.js",
   "runtime~main.js.map": "/omar-al-ashi/static/js/runtime~main.b2199c39.js.map",
-  "static/css/1.f61ac0e5.chunk.css.map": "/omar-al-ashi/static/css/1.f61ac0e5.chunk.css.map",
-  "static/css/main.74f9a20a.chunk.css.map": "/omar-al-ashi/static/css/main.74f9a20a.chunk.css.map",
+  "static/css/main.52eba9e7.chunk.css.map": "/omar-al-ashi/static/css/main.52eba9e7.chunk.css.map",
   "index.html": "/omar-al-ashi/index.html",
-  "precache-manifest.8562196cd830ea72d1618ba759f719aa.js": "/omar-al-ashi/precache-manifest.8562196cd830ea72d1618ba759f719aa.js",
+  "precache-manifest.41a9873e9838a02912f8091be01acd03.js": "/omar-al-ashi/precache-manifest.41a9873e9838a02912f8091be01acd03.js",
   "service-worker.js": "/omar-al-ashi/service-worker.js"
 }
