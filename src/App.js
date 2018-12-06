@@ -24,7 +24,6 @@ class App extends Component {
 
     }
 
-    // TODO fix problem with reading resumeData.json
     getResumeData() {
         $.ajax({
             url: 'https://api.myjson.com/bins/12hzse',
