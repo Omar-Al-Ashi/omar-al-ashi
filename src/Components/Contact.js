@@ -1,6 +1,23 @@
 import React, {Component} from 'react';
 
 class Contact extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            name: {},
+            email: {},
+            subject: {},
+            message: {},
+        };
+    }
+
+    handleChange(event) {
+        this.setState({
+            [event.target.id]: event.target.value
+        });
+    }
+
     render() {
 
         if (this.props.data) {
@@ -34,7 +51,7 @@ class Contact extends Component {
                 <div className="row">
                     <div className="eight columns">
 
-                        <form action="" method="post" id="contactForm"
+                        <form id="contactForm"
                               name="contactForm">
                             <fieldset>
 
@@ -42,25 +59,25 @@ class Contact extends Component {
                                     <label htmlFor="contactName">Name <span
                                         className="required">*</span></label>
                                     <input type="text" defaultValue="" size="35"
-                                           id="contactName" name="contactName"
-                                           onChange={this.handleChange}/>
+                                           id="name" name="contactName"
+                                           onChange={this.handleChange.bind(this)}/>
                                 </div>
 
                                 <div>
                                     <label htmlFor="contactEmail">Email <span
                                         className="required">*</span></label>
                                     <input type="text" defaultValue="" size="35"
-                                           id="contactEmail" name="contactEmail"
-                                           onChange={this.handleChange}/>
+                                           id="email" name="contactEmail"
+                                           onChange={this.handleChange.bind(this)}/>
                                 </div>
 
                                 <div>
                                     <label
                                         htmlFor="contactSubject">Subject</label>
                                     <input type="text" defaultValue="" size="35"
-                                           id="contactSubject"
+                                           id="subject"
                                            name="contactSubject"
-                                           onChange={this.handleChange}/>
+                                           onChange={this.handleChange.bind(this)}/>
                                 </div>
 
                                 <div>
@@ -68,12 +85,15 @@ class Contact extends Component {
                                         htmlFor="contactMessage">Message <span
                                         className="required">*</span></label>
                                     <textarea cols="50" rows="15"
-                                              id="contactMessage"
-                                              name="contactMessage"/>
+                                              id="message"
+                                              name="contactMessage"
+                                              onChange={this.handleChange.bind(this)}/>
                                 </div>
-
+                                {/*TODO I need to check if the inputs are not empty*/}
                                 <div>
-                                    <button className="submit">Submit</button>
+                                    <button className='submit-email'>
+                                        <a className="submit" href={`mailto:${this.state.email}?Subject=${this.state.subject}&Body=${this.state.message}`} target="_top">Send Mail</a>
+                                    </button>
                                     <span id="image-loader">
                         <img alt="" src="images/loader.gif"/>
                      </span>
