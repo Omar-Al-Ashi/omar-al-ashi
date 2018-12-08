@@ -15,7 +15,6 @@ class App extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            foo: 'bar',
             resumeData: {}
         };
 
@@ -26,7 +25,7 @@ class App extends Component {
 
     getResumeData() {
         $.ajax({
-            url: 'https://api.myjson.com/bins/127hpa',
+            url: 'https://api.myjson.com/bins/pu5am',
             dataType: 'json',
             cache: false,
             success: function (data) {
