@@ -5,10 +5,8 @@ class Contact extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            name: {},
-            email: {},
-            subject: {},
-            message: {},
+            subject: "",
+            message: "",
         };
     }
 
@@ -54,26 +52,10 @@ class Contact extends Component {
                         <form id="contactForm"
                               name="contactForm">
                             <fieldset>
-
-                                <div>
-                                    <label htmlFor="contactName">Name <span
-                                        className="required">*</span></label>
-                                    <input type="text" defaultValue="" size="35"
-                                           id="name" name="contactName"
-                                           onChange={this.handleChange.bind(this)}/>
-                                </div>
-
-                                <div>
-                                    <label htmlFor="contactEmail">Email <span
-                                        className="required">*</span></label>
-                                    <input type="text" defaultValue="" size="35"
-                                           id="email" name="contactEmail"
-                                           onChange={this.handleChange.bind(this)}/>
-                                </div>
-
                                 <div>
                                     <label
-                                        htmlFor="contactSubject">Subject</label>
+                                        htmlFor="contactSubject">Subject <span
+                                        className="required">*</span></label>
                                     <input type="text" defaultValue="" size="35"
                                            id="subject"
                                            name="contactSubject"
@@ -89,10 +71,15 @@ class Contact extends Component {
                                               name="contactMessage"
                                               onChange={this.handleChange.bind(this)}/>
                                 </div>
-                                {/*TODO I need to check if the inputs are not empty*/}
+
                                 <div>
                                     <button className='submit-email'>
-                                        <a className="submit" href={`mailto:${this.state.email}?Subject=${this.state.subject}&Body=${this.state.message}`} target="_top">Send Mail</a>
+                                        {this.state.subject && this.state.message ? (
+                                            <a className="submit"
+                                               href={`mailto:omar.al.ashi@outlook.com?Subject=${this.state.subject}&Body=${this.state.message}`}
+                                               target="_top">Send
+                                                Mail</a>) : 'Send Mail'}
+
                                     </button>
                                     <span id="image-loader">
                         <img alt="" src="images/loader.gif"/>
