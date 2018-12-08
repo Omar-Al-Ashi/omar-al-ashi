@@ -4,7 +4,7 @@
     "occupation": "Full-Stack Web Developer",
     "description": "I Graduated from AUST 'American University of Science and Technology' with a Bs in Computer Science. I graduated as well from a Full-Stack Web Development intensive coding boot-camp 'SE Factory'.",
     "image": "profilepic.jpeg",
-    "bio": "Geek developer with a passion for learning and applying new skills. Always on the look for ways to improve himself. And very much into two wheel motorsports. 🏍️",
+    "bio": "Geek developer with a passion for learning and applying new skills. Always on the look for ways to improve myself. And very much into two wheel motorsports. 🏍️",
     "contactmessage": "If you have an interesting job opportunity, or an interesting project, shoot me a message to talk.",
     "email": "omar.ashi@hotmail.com",
     "phone": "+961 78 916639",
@@ -26,6 +26,11 @@
         "name": "github",
         "url": "https://github.com/Omar-Al-Ashi",
         "className": "fa fa-github"
+      },
+      {
+        "name": "Aboutme",
+        "url": "https://about.me/omaral-ashi",
+        "className": "fa fa-user"
       }
     ]
   },
@@ -126,7 +131,6 @@
           "level": "70%"
         }
       ]
-
     }
   },
   "portfolio": {
