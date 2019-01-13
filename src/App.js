@@ -25,7 +25,7 @@ class App extends Component {
 
     getResumeData() {
         $.ajax({
-            url: 'https://api.myjson.com/bins/owaxi',
+            url: 'https://api.myjson.com/bins/ij6sg',
             dataType: 'json',
             cache: false,
             success: function (data) {
