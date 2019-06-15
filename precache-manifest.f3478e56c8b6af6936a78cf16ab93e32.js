@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/omar-al-ashi/static/js/runtime~main.b2199c39.js"
   },
   {
-    "revision": "4383cd9a7cbe453a1666",
-    "url": "/omar-al-ashi/static/js/main.4383cd9a.chunk.js"
+    "revision": "49a82a649a6288e237a4",
+    "url": "/omar-al-ashi/static/js/main.49a82a64.chunk.js"
   },
   {
     "revision": "fadfcaeced05d8733824",
     "url": "/omar-al-ashi/static/js/1.fadfcaec.chunk.js"
   },
   {
-    "revision": "4383cd9a7cbe453a1666",
+    "revision": "49a82a649a6288e237a4",
     "url": "/omar-al-ashi/static/css/main.2d4dfd2c.chunk.css"
   },
   {
-    "revision": "8325764272b27846f31f5bc4670b75b3",
+    "revision": "98b309f1b390f54dea1ba1b2c987c8bd",
     "url": "/omar-al-ashi/index.html"
   }
 ];
