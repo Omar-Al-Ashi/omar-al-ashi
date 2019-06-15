@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/omar-al-ashi/precache-manifest.65b3307e72d51c577665c13e4bb9117b.js"
+  "/omar-al-ashi/precache-manifest.01e44b3885ceb2a3576508bcebaab8ca.js"
 );
 
 workbox.clientsClaim();
