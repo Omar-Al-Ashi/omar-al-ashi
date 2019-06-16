@@ -15,7 +15,7 @@
       "zip": ""
     },
     "website": "https://omar-al-ashi.github.io/omar-al-ashi/",
-    "resumedownload": "https://drive.google.com/uc?export=download&id=1y8AISBGdWAvB6hlec4BzXaAL0LG6_S-L",
+    "resumedownload": "https://drive.google.com/uc?export=download&id=1hkdFLPzpMeTEnALLkgTeHzvhyG1bNpUo",
     "social": [
       {
         "name": "linkedin",
@@ -31,6 +31,11 @@
         "name": "Aboutme",
         "url": "https://about.me/omaral-ashi",
         "className": "fa fa-user"
+      },
+      {
+        "name": "Medium",
+        "url": "https://medium.com/@omar.al.ashi0",
+        "className": "fa fa-medium"
       }
     ]
   },
@@ -132,34 +137,64 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "title": "7 Ways to Succeed",
+        "description": "I attended a workshop about 7 ways to succeed, here is a brief summary.",
+        "date": "Feb 25, 2019",
+        "publication": "Medium",
+        "url": "https://medium.com/@omar.al.ashi0/7-ways-to-succeed-b0c06ea35c95",
+        "image": "ways-to-succeed.jpg"
       },
       {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
+        "title": "My Experience with NativeScript",
+        "description": "I’ve been using NativeScript for a couple of months now and this is my experience so far.",
+        "date": "Mar 3, 2019",
+        "publication": "Medium",
+        "url": "https://medium.com/@omar.al.ashi0/my-experience-with-nativescript-138a5a426eaa",
+        "image": "nativescript.jpg"
+      },{
+        "title": "Daily Habits to Become a More Productive Developer",
+        "description": "Habits to stay productive in you life and your career as a developer",
+        "date": "Apr 11, 2019",
+        "publication": "Medium",
+        "url": "https://medium.com/@omar.al.ashi0/daily-habits-to-become-a-more-productive-developer-b97d50418528",
+        "image": "productive-developer.jpg"
+      },{
+        "title": "I Quit Smoking For Real!",
+        "description": "I quit smoking for real!!",
+        "date": "May 19, 2019",
+        "publication": "Medium",
+        "url": "https://blog.usejournal.com/i-quit-smoking-for-real-7d623d90b11f",
+        "image": "smoking.jpg"
+      }
+    ],
+    "publications": [
+      {
+        "title": "7 Ways to Succeed",
+        "description": "I attended a workshop about 7 ways to succeed, here is a brief summary.",
+        "date": "Feb 25, 2019",
+        "publication": "Medium",
+        "url": "https://medium.com/@omar.al.ashi0/7-ways-to-succeed-b0c06ea35c95"
       },
       {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "My Experience with NativeScript",
+        "description": "I’ve been using NativeScript for a couple of months now and this is my experience so far.",
+        "date": "Mar 3, 2019",
+        "publication": "Medium",
+        "url": "https://medium.com/@omar.al.ashi0/my-experience-with-nativescript-138a5a426eaa"
       },
       {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
+        "title": "Daily Habits to Become a More Productive Developer",
+        "description": "Habits to stay productive in you life and your career as a developer",
+        "date": "Apr 11, 2019",
+        "publication": "Medium",
+        "url": "https://medium.com/@omar.al.ashi0/daily-habits-to-become-a-more-productive-developer-b97d50418528"
       },
       {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
+        "title": "I Quit Smoking For Real!",
+        "description": "I quit smoking for real!!",
+        "date": "May 19, 2019",
+        "publication": "Medium",
+        "url": "https://blog.usejournal.com/i-quit-smoking-for-real-7d623d90b11f"
       }
     ]
   },
