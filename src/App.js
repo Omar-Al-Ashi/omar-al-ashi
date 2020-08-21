@@ -25,7 +25,7 @@ class App extends Component {
 
     getResumeData() {
         $.ajax({
-            url: 'https://api.myjson.com/bins/ij6sg',
+            url: 'https://api.npoint.io/ab24c34cb45d83135a87',
             dataType: 'json',
             cache: false,
             success: function (data) {
