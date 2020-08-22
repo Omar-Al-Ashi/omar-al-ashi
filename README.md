@@ -7,10 +7,10 @@ Geek developer with a passion for learning and applying new skills. Always on th
 
 I have worked on 2 mobile apps from planning to development to publishing till maintenance.
 
-You can find the first project on both Android and iOS through the following links:
-Android: https://play.google.com/store/apps/details?id=org.kamkalima.studentapp
+You can find the first project on both Android and iOS through the following links:<br/>
+Android: https://play.google.com/store/apps/details?id=org.kamkalima.studentapp<br/>
 iOS: https://apps.apple.com/us/app/kamkalima-for-students/id1474944188?ls=1
 
-And the second project on both Android and iOS through the following links:
-Android: https://play.google.com/store/apps/details?id=com.etame
+And the second project on both Android and iOS through the following links:<br/>
+Android: https://play.google.com/store/apps/details?id=com.etame<br/>
 iOS: https://apps.apple.com/us/app/eta-me/id1300217992
