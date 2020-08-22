@@ -1,7 +1,7 @@
 {
   "main": {
     "name": "Omar Al-Ashi",
-    "occupation": "Full-Stack Web Developer",
+    "occupation": "Front-End Software Developer",
     "description": "I Graduated from AUST 'American University of Science and Technology' with a Bs in Computer Science. I graduated as well from a Full-Stack Web Development intensive coding boot-camp 'SE Factory'.",
     "image": "profilepic.png",
     "bio": "Geek developer with a passion for learning and applying new skills. Always on the look for ways to improve myself. And very much into two wheel motorsports. 🏍️",
@@ -15,7 +15,7 @@
       "zip": ""
     },
     "website": "https://omar-al-ashi.github.io/omar-al-ashi/",
-    "resumedownload": "https://drive.google.com/uc?export=download&id=1hkdFLPzpMeTEnALLkgTeHzvhyG1bNpUo",
+    "resumedownload": "https://docs.google.com/uc?export=download&id=1oL2Qal_nCA94VP0ir7pGrmiC4OaR29yY",
     "social": [
       {
         "name": "linkedin",
@@ -45,11 +45,17 @@
       {
         "school": "American University of Science and Technology",
         "degree": "Bachelor Degree in Computer Science",
-        "graduated": "June 2018",
+        "graduated": "2014 - 2018",
         "description": ""
       }
     ],
     "work": [
+      {
+        "company": "Kamkalima",
+        "title": "Front-End Software Developer ",
+        "years": "January 2019 - Present",
+        "description": "Responsible for the cross-platform mobile app (iOS and Android) from development, to publishing, to maintenance. Built using Nativescript."
+      },
       {
         "company": "SE Factory",
         "title": "Full-Stack Web Development ",
@@ -75,31 +81,63 @@
         "description": "Installation and configuration of new systems, ensure that all clients’ HOBBIES & INTERESTS systems, servers and devices operated as expected."
       }
     ],
+    "projects": [
+      {
+        "company": "Kamkalima Student App",
+        "androidLink": "https://play.google.com/store/apps/details?id=org.kamkalima.studentapp",
+        "iOSLink": "https://apps.apple.com/us/app/kamkalima-for-students/id1474944188?ls=1"
+      },
+      {
+        "company": "ETA/Me App",
+        "androidLink": "https://play.google.com/store/apps/details?id=com.etame",
+        "iOSLink": "https://apps.apple.com/us/app/eta-me/id1300217992"
+      }
+    ],
     "skills": {
       "programming": [
         {
-          "name": "Java",
-          "level": "50%"
-        },
-        {
-          "name": "C++",
-          "level": "50%"
-        },
-        {
           "name": "Javascript",
+          "level": "90%"
+        },
+        {
+          "name": "React",
+          "level": "80%"
+        },
+        {
+          "name": "React Native",
+          "level": "80%"
+        },
+        {
+          "name": "Vue.JS",
+          "level": "80%"
+        },
+        {
+          "name": "Nativescript",
+          "level": "80%"
+        },
+        {
+          "name": "HTML",
           "level": "70%"
         },
         {
-          "name": "PHP",
+          "name": "CSS",
+          "level": "70%"
+        },
+        {
+          "name": "Mysql",
           "level": "70%"
         },
         {
           "name": "Python",
-          "level": "60%"
+          "level": "40%"
         },
         {
-          "name": "Bash Scripting",
+          "name": "Bash Shell",
           "level": "50%"
+        },
+        {
+          "name": "Laravel",
+          "level": "40%"
         }
       ],
       "tools": [
