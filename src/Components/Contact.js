@@ -102,7 +102,6 @@ class Contact extends Component {
                             <h4>Address and Phone</h4>
                             <p className="address">
                                 {name}<br/>
-                                {city}, {country}<br/>
                                 <span>{email}</span><br/>
                                 <span>{phone}</span>
                             </p>
