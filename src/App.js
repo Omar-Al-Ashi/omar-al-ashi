@@ -7,6 +7,7 @@ import Footer from './Components/Footer';
 import About from './Components/About';
 import Resume from './Components/Resume';
 import Contact from './Components/Contact';
+import resumeDataFile from './resumeData.json'
 // import Testimonials from './Components/Testimonials';
 // import Portfolio from './Components/Portfolio';
 
@@ -24,18 +25,7 @@ class App extends Component {
     }
 
     getResumeData() {
-        $.ajax({
-            url: 'https://api.npoint.io/ab24c34cb45d83135a87',
-            dataType: 'json',
-            cache: false,
-            success: function (data) {
-                this.setState({resumeData: data});
-            }.bind(this),
-            error: function (xhr, status, err) {
-                console.log(err);
-                alert(err);
-            }
-        });
+        this.setState({resumeData: resumeDataFile})
     }
 
     componentDidMount() {
