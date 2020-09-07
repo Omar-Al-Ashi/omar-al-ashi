@@ -3,11 +3,11 @@
     "name": "Omar Al-Ashi",
     "occupation": "Front-End Software Developer",
     "description": "I Graduated from AUST 'American University of Science and Technology' with a Bs in Computer Science. I graduated as well from a Full-Stack Web Development intensive coding boot-camp 'SE Factory'.",
-    "image": "profilepic.png",
+    "image": "OmarAlAshi.JPG",
     "bio": "Geek developer with a passion for learning and applying new skills. Always on the look for ways to improve myself. And very much into two wheel motorsports. 🏍️",
     "contactmessage": "If you have an interesting job opportunity, or an interesting project, shoot me a message to talk.",
     "email": "omar.ashi@hotmail.com",
-    "phone": "+961 78 916639",
+    "phone": "+971 523787758",
     "address": {
       "country": "Lebanon",
       "city": "Beirut",
@@ -15,7 +15,7 @@
       "zip": ""
     },
     "website": "https://omar-al-ashi.github.io/omar-al-ashi/",
-    "resumedownload": "https://docs.google.com/uc?export=download&id=1oL2Qal_nCA94VP0ir7pGrmiC4OaR29yY",
+    "resumedownload": "https://drive.google.com/uc?export=download&id=17dFILy226n6RA64JhW4xX6fL7JlMuJcf",
     "social": [
       {
         "name": "linkedin",
@@ -101,39 +101,39 @@
         },
         {
           "name": "React",
-          "level": "80%"
+          "level": "90%"
         },
         {
           "name": "React Native",
-          "level": "80%"
+          "level": "90%"
         },
         {
-          "name": "Vue.JS",
-          "level": "80%"
+          "name": "Vue.js",
+          "level": "90%"
         },
         {
           "name": "Nativescript",
-          "level": "80%"
+          "level": "90%"
         },
         {
           "name": "HTML",
-          "level": "70%"
+          "level": "80%"
         },
         {
           "name": "CSS",
-          "level": "70%"
+          "level": "80%"
         },
         {
-          "name": "Mysql",
+          "name": "MySQL",
           "level": "70%"
-        },
-        {
-          "name": "Python",
-          "level": "40%"
         },
         {
           "name": "Bash Shell",
           "level": "50%"
+        },
+        {
+          "name": "Python",
+          "level": "40%"
         },
         {
           "name": "Laravel",
@@ -189,14 +189,16 @@
         "publication": "Medium",
         "url": "https://medium.com/@omar.al.ashi0/my-experience-with-nativescript-138a5a426eaa",
         "image": "nativescript.jpg"
-      },{
+      },
+      {
         "title": "Daily Habits to Become a More Productive Developer",
         "description": "Habits to stay productive in you life and your career as a developer",
         "date": "Apr 11, 2019",
         "publication": "Medium",
         "url": "https://medium.com/@omar.al.ashi0/daily-habits-to-become-a-more-productive-developer-b97d50418528",
         "image": "productive-developer.jpg"
-      },{
+      },
+      {
         "title": "I Quit Smoking For Real!",
         "description": "I quit smoking for real!!",
         "date": "May 19, 2019",
