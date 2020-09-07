@@ -19,6 +19,7 @@ class About extends Component {
           <div className="three columns">
             <img
               className="profile-pic"
+              style={{objectFit: 'cover'}}
               src={profilepic}
               alt="Omar Al-Ashi Profile Pic"
             />
