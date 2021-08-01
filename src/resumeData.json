@@ -51,6 +51,12 @@
     ],
     "work": [
       {
+        "company": "Callsign",
+        "title": "Software Engineer",
+        "years": "December 2020 - Present",
+        "description": "Responsible for the stability of the platform. Investigated and fixed multiple issues that were affecting the customer. Participated in multiple production releases to ensure the successful delivery of our solution. Lead a team to support tier1 customers. Trained new team members on our solution to get them up to speed. Created and documented processes and procedures"
+      },
+      {
         "company": "Kamkalima",
         "title": "Front-End Software Developer ",
         "years": "January 2019 - Present",
